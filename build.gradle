@@ -1,0 +1,24 @@
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.eriwen:gradle-js-plugin:1.0.3'
+    }
+}
+
+apply plugin: 'js'
+
+javascript.source {
+    dev {
+        js {
+            srcDir "js"
+            include "**/*.js"
+        }
+    }
+}
+
+task combinejs(type: com.eriwen.gradle.js.tasks.CombineJsTask) {
+    source = [javascript.source.dev.js.files]
+    dest = file("out/kallisto.js")
+}

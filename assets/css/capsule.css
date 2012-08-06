@@ -1,0 +1,25 @@
+/*
+ * capsule.css
+ * stylesheet for the capsule elements (header, footer)
+ */
+
+#capsule-header {
+    position:           absolute;
+    background-color:   #dcdcdc;
+    height:             30px;
+    width:              100%;
+}
+
+#capsule-header li {
+    width:              100px;
+    list-style-type:    none;
+    float:              left;
+}
+
+#capsule-main {
+    position:           absolute;
+    background-color:   #f0f8ff;
+    width:              100%;
+    top:                30px;
+    bottom:             30px;
+}

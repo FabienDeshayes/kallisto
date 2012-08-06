@@ -1,0 +1,13 @@
+{
+    "modules":
+    [
+        {
+            "name": "profile",
+            "label": "My profile"
+        },
+        {
+            "name": "library",
+            "label": "Library"
+        }
+    ]
+}
