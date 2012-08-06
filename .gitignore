@@ -1,4 +1,4 @@
-
 .DS_Store
-
-out/kallisto.js
+out/
+.idea/
+*.iml
